@@ -39,7 +39,7 @@ The IDE key to use in the URL when making Xdebug requests (e.g. `http://example.
 
 ## License
 
-MIT / BSD
+MIT
 
 ## Author Information
 
