@@ -35,7 +35,7 @@ The IDE key to use in the URL when making Xdebug requests (e.g. `http://example.
 
     - hosts: webservers
       roles:
-        - { role: maximethoonsen.php-xdebug }
+        - { role: MaximeThoonsen.php-xdebug }
 
 ## License
 
