@@ -1,13 +1,13 @@
-language: python
+language: php
 
-python:
-  - 2.7
+php:
+  - 5.5
 
 before_install:
-  - sudo apt-get update
+  - sudo apt-get update  -y -q
 
 install:
-  - sudo apt-get install php5
+  - sudo apt-get install python-pip -y
   - pip install ansible==1.4.0
 
 script:
