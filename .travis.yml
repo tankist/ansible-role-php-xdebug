@@ -4,9 +4,10 @@ python:
   - 2.7
 
 before_install:
-  - sudo apt-get install php5
+  - sudo apt-get update
 
 install:
+  - sudo apt-get install php5
   - pip install ansible==1.4.0
 
 script:
