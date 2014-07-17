@@ -1,6 +1,6 @@
 # Ansible Role: PHP-XDebug
 
-Installs PHP [XDebug](http://xdebug.org/) on Ubuntu Trusty.
+Installs PHP [XDebug](http://xdebug.org/) on Ubuntu Trusty(14.04) or Precise(12.04).
 
 ## Requirements
 
@@ -35,7 +35,7 @@ The IDE key to use in the URL when making Xdebug requests (e.g. `http://example.
 
     - hosts: webservers
       roles:
-        - { role: MaximeThoonsen.php-xdebug }
+        - { role: MaximeThoonsen.php5-xdebug }
 
 ## License
 
@@ -44,3 +44,4 @@ MIT
 ## Author Information
 
 This role was created in 2014 by [Maxime Thoonsen](https://twitter.com/MaximeThoonsen).
+It was forked from [Jeff Geerling's role](https://github.com/geerlingguy/ansible-role-php-xdebug)
