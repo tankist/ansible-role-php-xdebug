@@ -5,5 +5,14 @@ php_xdebug_remote_host: localhost
 php_xdebug_remote_port: "9000"
 php_xdebug_remote_log: /tmp/xdebug.log
 php_xdebug_remote_autostart: "false"
+php_xdebug_remote_cookie_expire_time: 3600
+php_xdebug_coverage_enable: "false"
+php_xdebug_default_enable: "false"
+php_xdebug_cli_enable: "false"
+php_xdebug_auto_trace: "false"
+php_xdebug_collect_includes: "true"
+php_xdebug_collect_params: "false"
+php_xdebug_collect_return: "false"
+php_xdebug_collect_vars: "false"
 php_xdebug_idekey: XDEBUG
 php_max_nesting_level: 200
